@@ -16,7 +16,7 @@ import OrderConfirmation from "./pages/OrderConfirmation";
 // Create a context
 export const AppContext = createContext();
 // export const BASE_URL = "https://shoppingserver-q9kv.onrender.com";
-export const BASE_URL = "http://localhost:8081";
+export const BASE_URL = "change this url";
 
 function App() {
   const [isRegistered, setIsRegistered] = useState(false);
